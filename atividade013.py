@@ -2,7 +2,7 @@
 val=float(input("informe o numero"))
 if val<0:
     print("seu numeo é negativo")
-if val==0:
+elif val==0:
     print("seu numero é zero")
-if val>0:
+elif val>0:
     print("seu numero é positivo")
